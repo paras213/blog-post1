@@ -1,0 +1,598 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>meriStreet</title>
+    <meta name="description" content="Default Description">
+    <meta name="keywords" content="E-commerce"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Font css -->
+    <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
+
+    <!-- mobile menu css -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- nivo slider css -->
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- fancybox css -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- default css  -->
+    <link rel="stylesheet" href="css/default.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+    <!-- modernizr js -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+   
+
+
+
+
+
+
+
+    <style type="text/css">
+    	@media only screen and (max-width: 600px) {
+  #cor {
+    font-size: 29px;
+  }
+  
+  
+}
+@media only screen and (max-width: 500px) {
+  #contacts1-2m {
+       height: 60vh !important;
+       padding-top: 70px !important;
+    
+  }
+}
+@media only screen and (max-width: 320px) {
+  #contacts1-2m {
+       height: 70vh !important;
+       padding-top: 70px !important;
+    
+  }
+}
+
+@media (min-width: 768px){
+.col-md-8 {
+    
+    flex: 0 0 96%;
+    max-width: 97%;
+    margin-left: 30px;
+    
+}
+  }
+
+    @media (max-width: 380px){
+#tcw{
+    padding-left: 6%;
+}
+  }
+
+    @media (max-width: 325px){
+#tcw{
+    padding-left: 6%;
+}
+  }
+
+      @media (max-width: 1200px){
+#sli{
+    margin-left: 330px;
+    
+}
+  }
+    @media (max-width: 990px){
+#sli{
+    margin-left: 185px;
+    
+}
+  }
+    @media (max-width: 768px){
+#sli{
+    margin-left: 95px;
+    
+}
+  }
+
+
+  @media (max-width: 459px){
+#sli{
+    margin-left: 45px;
+    
+}
+  }
+  @media (max-width: 380px){
+#sli{
+    margin-left:27px;
+    width: 10em;  
+    height: 3em;
+    padding: 0 0px;
+}
+  }
+
+  @media (max-width: 325px){
+#sli{
+    margin-left:0px;
+     
+    height: 3em;
+    padding: 0 0px;
+    
+}
+  }
+      @media (max-width: 1200px){
+#sli1{
+    margin-left: 45px;
+    
+}
+  }
+    @media (max-width: 990px){
+#sli1{
+    margin-left: 20px;
+    
+}
+  }
+      @media (max-width: 768px){
+#sli1{
+    margin-left: 0px;
+    
+}
+  }
+
+  @media (max-width: 459px){
+#sli1{
+    margin-left: 0px;
+    
+}
+  }
+  @media (max-width: 380px){
+#sli1{
+    margin-left:0px;
+    width: 10em;  
+    height: 3em;
+    padding: 0 0px;
+}
+  }
+
+  @media (max-width: 325px){
+#sli1{
+      
+    height: 3em;
+    padding: 0 0px;
+}
+  }
+  @media (max-width: 575px){
+.nivo-caption .banner-readmore a {
+    line-height: 35px;
+    
+}
+}
+    </style>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+function showfield(name){
+  if(name=='Other')document.getElementById('div1').innerHTML='Other: <input type="text" name="other" />';
+  else document.getElementById('div1').innerHTML='';
+}
+</script>
+
+
+
+</head>
+
+
+
+
+
+<body>
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="/__/firebase/7.14.5/firebase-app.js"></script>
+<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+<script src="/__/firebase/7.14.5/firebase-analytics.js"></script>
+<!-- Add Firebase products that you want to use -->
+<script src="/__/firebase/7.14.5/firebase-auth.js"></script>
+<script src="/__/firebase/7.14.5/firebase-database.js"></script>
+<script src="/__/firebase/7.14.5/firebase-firestore.js"></script>
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+<script type="text/javascript">firebase.analytics();</script>
+<script src="js/index.js"></script>
+<div class="wrapper homepage">
+
+
+    <header>
+
+        <div class="header-bottom header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-2 col-sm-5 col-5">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/meristreet2.png" alt="logo-image"></a>
+                        </div>
+                    </div>
+
+                    <!-- Primary Vertical-Menu End -->
+                    <!-- Search Box Start -->
+                    <div class="col-xl-6 col-lg-7 d-none d-lg-block">
+                        <div class="middle-menu pull-right">
+                            <nav>
+                                <ul class="middle-menu-list">
+
+                                    <!---<li><a href="about.html">about us</a></li> -->
+
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="#">Sign up<i class="fa fa-angle-down"></i></a>
+                                        <!-- Home Version Dropdown Start -->
+                                        <ul class="ht-dropdown dropdown-style-two">
+                                            <li><a class="typeform-share button"
+                                                   href="https://form.typeform.com/to/cuNtIrbc" data-mode="popup"
+                                                   style="background-color: transparent;" target="_blank">Merchant Sign
+                                                Up </a>
+
+                                                <script>
+                                                     (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+                                                </script>
+                                            </li>
+
+                                            <li><a href="register.html">Order Now</a></li>
+
+                                        </ul>
+                                        <!-- Home Version Dropdown End -->
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Search Box End -->
+                    <!-- Cartt Box Start -->
+
+                    <div class="col-lg-3 col-sm-7 col-7">
+                        <div class="cart-box text-right">
+                            <ul>
+                                <li style="font-size: 18px; color: grey;"><a
+                                        href="https://api.whatsapp.com/send?phone=917985430213&amp;text=Hi"
+                                        target="_blank"><i class="fa fa-whatsapp"></i> Say Hi!</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Cartt Box End -->
+                    <div class="col-sm-12 d-lg-none">
+                        <div class="mobile-menu">
+                            <nav>
+                                <ul>
+
+
+                                    <li><a href="blog-details.html">Blog</a>
+                                        <!-- Mobile Menu Dropdown Start -->
+
+                                        <!-- Mobile Menu Dropdown End -->
+                                    </li>
+                                    <li><a href="#">Sign up</a>
+                                        <!-- Mobile Menu Dropdown Start -->
+                                        <ul>
+                                            <li><a class="typeform-share button"
+                                                   href="https://form.typeform.com/to/cuNtIrbc" data-mode="popup"
+                                                   target="_blank">Merchant Sign Up </a>
+                                                <script>
+                                                     (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+                                                </script>
+                                            </li>
+                                            <li><a href="https://api.whatsapp.com/send?phone=917985430213&amp;text=Hi"
+                                                   target="_blank">Order Now</a></li>
+
+                                        </ul>
+                                        <!-- Mobile Menu Dropdown End -->
+                                    </li>
+                                  
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu  End -->
+                </div>
+                <!-- Row End -->
+            </div>
+            <!-- Container End -->
+        </div>
+        <!-- Header Bottom End -->
+    </header>
+
+
+<br><br>
+    <!-- Header Area End -->
+    <!-- Slider Area Start -->
+    <div class="slider-area slider-style-three">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="slider-wrapper theme-default">
+                        <!-- Slider Background  Image Start-->
+                        <div id="slider" class="nivoSlider">
+                            <a href="shop.html"> <img src="images/main2.png" data-thumb="images/main2.png" alt=""
+                                                      title="#slider-1-caption1"/></a>
+                            <!--<a href="shop.html"><img src="img/main2.png" data-thumb="images/main2.png" alt="" title="#slider-1-caption2"/></a>-->
+                        </div>
+                        <!-- Slider Background  Image Start-->
+                        <div id="slider-1-caption1" class="nivo-html-caption nivo-caption">
+                            <div class="text-content-wrapper" id="tcw">
+                                <div class="text-content" style="margin-top: 40px;">
+
+                                    <div class="banner-readmore wow bounceInUp mt-35 side" data-wow-duration="2s"
+                                         data-wow-delay="2s">
+                                        <a class="button slider-btn sli1"
+                                           href="https://api.whatsapp.com/send?phone=917985430213&amp;text=Hi%20i'd%20%20like%20to%20make%20an%20 order!"
+                                           target="_blank" id="sli1" style="background:#28a745"><i
+                                                class="fa fa-whatsapp" id="bts"></i> Order Now </a>
+                                    </div>
+                                    <div class="banner-readmore wow bounceInUp mt-35 side" data-wow-duration="2s"
+                                         data-wow-delay="2s">
+
+                                        <a class="typeform-share button slider-btn sli"
+                                           href="https://form.typeform.com/to/cuNtIrbc" id="sli" data-mode="popup"
+                                           target="_blank"><i class="fa fa-user-plus" id="bts"></i> Sign Up </a>
+                                        <script>
+                                             (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Single Banner Start
+                <div class="col-md-4">
+
+                    <div class="single-banner zoom mb-20">
+                        <a href="https://api.whatsapp.com/send?phone=917985430213&amp;text=Hi!%20I'd%20like%20to%20make%20an%20order!" target="_blank"><img src="images/customer.png" alt="slider-banner"></a>
+                    </div>
+
+                    <div class="single-banner zoom">
+                        <a href="#"><img src="images/seller.png" alt="slider-banner"></a>
+                    </div>
+
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <!-- Slider Area End -->
+
+
+
+
+    <div class="corona" id="cvirus">
+
+        <div class="container">
+
+            <div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
+                <div class="container cora" id="crna"><span class="border border-dark" id="cor">KNOW YOUR <span
+                        style="font-weight: 800;">STREET</span></span></div>
+                <div class="wrapper wrapper--w780">
+                    <div class="card card-3">
+                        <div class="card-heading"></div>
+                        <div class="card-body">
+                            <h2 class="title" style="color: black;">Support us to stop the spread of COVID-19</h2>
+                            <p style="margin-bottom: 10px;">In this lockdown, connect with your regular retailers ONLINE
+                                instead of stepping out of your home.<br>
+                                meriStreet presents you an opportunity to order to your local retailer, pick-up on your
+                                convenience or get it delivered to your home.
+                                Be Home! Be Safe!<br>
+                                To be a part of our exclusive community, just fill fields below and we will connect you
+                                to your nearby retailers.</p>
+<!--                            <form>-->
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+
+                                        <select name="City" id="City"
+                                                onchange="showfield(this.options[this.selectedIndex].value)">
+                                            <option selected="selected">City</option>
+                                            <option value="Bhopal">Bhopal</option>
+                                            <option value="Kanpur">Kanpur</option>
+                                            <option value="Kolkata">Kolkata</option>
+                                            <option value="Agra">Agra</option>
+                                            <option value="Ajmer">Ajmer</option>
+                                            <option value="Bhubaneswar">Bhubaneswar</option>
+                                            <option value="Panji">Panji</option>
+                                            <option value="Guwahati">Guwahati</option>
+                                            <option value="Gwalior">Gwalior</option>
+                                            <option value="Jaipur">Jaipur</option>
+                                            <option value="Jhansi">Jhansi</option>
+                                            <option value="Jodhpur">Jodhpur</option>
+                                            <option value="Lucknow">Lucknow</option>
+                                            <option value="Mathura">Mathura</option>
+                                            <option value="Nashik">Nashik</option>
+                                            <option value="Patna">Patna</option>
+                                            <option value="Raipur">Raipur</option>
+                                            <option value="Shimla">Shimla</option>
+                                            <option value="Srinagar">Srinagar</option>
+                                            <option value="Udaipur">Udaipur</option>
+                                            <option value="Udaipur">Udaipur</option>
+                                            <option value="Vizag ">Vizag</option>
+                                            <option value="Mumbai">Mumbai</option>
+                                            <option value="Delhi">Delhi</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                        <div id="div1"></div>
+                                    </div>
+                                </div>
+                                <div class="input-group">
+                                    <input class="input--style-3" type="text" placeholder="Area" name="Area" id="Area">
+                                </div>
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="Category" id="Category">
+                                            <option disabled="disabled" selected="selected">Category</option>
+
+                                            <option value="Grocery">Grocery</option>
+                                            <option value="Bakery">Bakery</option>
+                                            <option value="General Store">General Store</option>
+                                            <option value="Fashion">Fashion</option>
+                                            <option value="Furniture">Furniture</option>
+                                            <option value="Electronics">Electronics</option>
+                                            <option value="Pharmacies">Pharmacies</option>
+                                            <option value="Service Providers">Service Providers</option>
+                                            <option value="Automobile Parts">Automobile Parts</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+
+                                <div class="input-group">
+                                    <input class="input--style-3" type="text" placeholder="Phone" name="phone"
+                                           id="Phone">
+                                </div>
+                                <div class="p-t-10">
+                                    <button class="btn btn--pill btn--green" type="submit" style="padding-bottom: 40px;"
+                                            onclick="submitDetails()">Submit
+                                    </button>
+                                </div>
+<!--                            </form>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="mbr-section mbr-section-md-padding mbr-footer footer1" id="contacts1-2m"
+         style="background-color: white; padding-top: 70px; padding-bottom: 40px; height: 30vh; border-bottom: 5px solid #f1de1f;color: #949494">
+
+    <div class="container">
+        <div class="row">
+            <div class="mbr-footer-content col-xs-12 col-md-4" id="fo">
+                <div style="display: block; font-size: 25px;"><img id="cinv1" src="images/meristreet2.png"
+                                                                   style=" height: 80px"></div>
+            </div><!--  -->
+            <div class="mbr-footer-content col-xs-12 col-md-4" id="fo" style="margin-top: 5px;">
+                <p><strong>Contact Us</strong><br>
+                    Email: meristreetcare@gmail.com<br>
+                    Phone: +91 9151636015, +91 7985430213 <br></p>
+            </div>
+
+
+            <div class="mbr-footer-content col-xs-12 col-md-4" id="fo" style="font-size: 24px;margin-top: 5px;">
+                <a href="https://m.facebook.com/meriStreet-103285348082362/?view_public_for=103285348082362"
+                   style="margin-right: 15px;"><i class="fa fa-facebook"></i></a><a
+                    href="https://api.whatsapp.com/send?phone=917985430213&amp;text=Hi" target="_blank"><i
+                    class="fa fa-whatsapp"></i></a>
+            </div>
+
+
+        </div>
+        <p style="text-align: center; margin-top: 30px;"><strong>© meriStreet 2020</strong><br></p>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="vendor/select2/select2.min.js"></script>
+
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="js/global.js"></script>
+<!-- Main JS-->
+<script src="js/global.js"></script>
+<!-- jquery 3.12.4 -->
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<!-- mobile menu js  -->
+<script src="js/jquery.meanmenu.min.js"></script>
+<!-- scroll-up js -->
+<script src="js/jquery.scrollUp.js"></script>
+
+<!-- wow js -->
+<script src="js/wow.min.js"></script>
+<!-- price slider js -->
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<!-- nivo slider js -->
+<script src="js/jquery.nivo.slider.js"></script>
+<!-- fancybox js -->
+<script src="js/jquery.fancybox.min.js"></script>
+<!-- bootstrap -->
+<script src="./js/bootstrap.min.js"></script>
+
+<!-- plugins -->
+<script src="js/plugins.js"></script>
+<!-- main js -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
